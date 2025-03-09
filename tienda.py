@@ -17,4 +17,7 @@ tienda = {
 producto_nuevo = {"id": 4, "nombre": "Pantalon", "precio": 30.99, "stock":40};
 tienda["lista_productos"].append(producto_nuevo);
 
+estado_nuevo = {"id_pedido": 101, "cliente": "juan@gmail.com", "productos": [1, 2], "estado": "Entregado"};
+tienda ["lista_pedidos"][0] = estado_nuevo;
+
 print (tienda);
