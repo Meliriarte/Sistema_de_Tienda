@@ -1,12 +1,12 @@
 # Sistema_de_Tienda
-Este código representa una tienda con productos, pedidos y clientes usando un diccionario en Python. Se agregan productos y se actualizan pedidos.
+Simula una tienda, con productos, pedidos y clientes, Se agregan productos nuevos y se actualizan estados de pedidos.
 
-Estructura
-lista_productos: Productos con id, nombre, precio y stock.
-lista_pedidos: Pedidos con id_pedido, cliente, productos y estado.
-clientes_registrados: Clientes con nombre, email y direccion.
+#Estructura
+Lista de productos con un id, nombre, precio, stock
+Lista de pedidos con un id, nombre del cliente, productos y el estado de la compra
+Clientes registrados con los nombres de los clientes, email y direccion
 
-Funcionalidad
-Se agrega un nuevo producto (Pantalón).
-Se cambia el estado de un pedido a "Entregado".
-Se imprime la tienda actualizada.
+#Funcionalidad
+Se agrega un nuevo producto
+Se cambio el estado de uno de los pedidos a entregado
+Se imprime la informacion de la tienda actualizada 
